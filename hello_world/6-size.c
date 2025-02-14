@@ -1,10 +1,10 @@
 #include<stdio.h>
+/**
+ * main - program that displays the size of every types
+ *
+ * Return: zero
+ */
 int main(void)
-	/**
-	 * main - program that displays the size of every types
-	 *
-	 * Return: zero
-	 */
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
