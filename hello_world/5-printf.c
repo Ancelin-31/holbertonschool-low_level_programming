@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: print a short message
+ * main - print a short message
  *
  * Return: zero
  */
