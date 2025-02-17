@@ -9,7 +9,7 @@ int main(void)
 {
 	int alphabt = 'a';
 
-	for (; alphabt < 'z'; alphabt++)
+	for (; alphabt <= 'z'; alphabt++)
 	{
 		if (alphabt == 'e' || alphabt == 'q')
 		{
