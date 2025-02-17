@@ -3,7 +3,7 @@
 /**
  * main - displays the alphabet in lowercase
  *
- * Return : 0 if correct
+ * Return: 0 if correct
  */
 
 int main(void)
