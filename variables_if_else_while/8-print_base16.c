@@ -6,12 +6,17 @@
  */
 int main(void)
 {
-	int hexa;
+	int num;
+	char letter;
 
-	for (hexa = 0; hexa <= 15; hexa++)
+	for (num = 0; num < 10; num++)
 	{
-		printf("%x", hexa);
+		putchar((num % 10) + '0');
 	}
-	printf("\n");
+	for (letter = 'a'; letter <= 'f'; letter++)
+	{
+		putchar(letter);
+	}
+	putchar('\n');
 	return (0);
 }
