@@ -5,5 +5,6 @@
 #define MAIN_H_
 
 void  _putchar();
+void print_alphabet(void);
 
 #endif
