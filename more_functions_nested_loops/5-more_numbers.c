@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - prints 10 times from zero to fourteen
- * @i: number of times
+ *
  * Return: 0
  */
 void more_numbers(void)
