@@ -2,6 +2,7 @@
 
 /**
  * print_square - prints a square
+ * @size: int
  *
  * Return: 0
  */
