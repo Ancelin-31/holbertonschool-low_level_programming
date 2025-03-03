@@ -24,6 +24,7 @@ char *_strchr(char *s, char c)
 				return (ptr);
 			}
 		}
+		ptr = '\0';
 	}
 	else
 		ptr = &s[length];
