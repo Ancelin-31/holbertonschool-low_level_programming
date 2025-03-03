@@ -21,6 +21,7 @@ char *_strchr(char *s, char c)
 			return (ptr);
 		}
 	}
-	ptr = &s[i];
+	if (s[i] == '\0')
+		ptr = '\0';
 	return (ptr);
 }
