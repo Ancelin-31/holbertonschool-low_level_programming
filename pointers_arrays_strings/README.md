@@ -1,1 +1,1 @@
-Trying to further elaborate with pointers, arrays and strings
+Beginning with pointers to pointers and multi-dimensional arrays
