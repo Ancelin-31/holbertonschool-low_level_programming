@@ -7,5 +7,6 @@
 
 void _putchar(char);
 int _strlen(char *s);
+void _puts_recursion(char *s);
 
 #endif
