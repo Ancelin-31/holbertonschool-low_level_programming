@@ -12,24 +12,27 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int search, comp;
+	unsigned int search = 0;
+	unsigned int comp = 0;
 
-	if (haystack == NULL || needle == NULL)
+	while (haystack[search] != '\0')
 	{
-		return (NULL);
-	}
-
-	for (search = 0, comp = 0; search != '\0' && comp != '\0'; search++)
-	{
-		if (haystack[search + comp] != needle[comp])
+		while (needle[comp] != '\0')
 		{
-			break;
+			if (haystack[search + comp] != needle[comp])
+			{
+				break;
+			}
+
+			comp++;
 		}
+
 		if (needle[comp] == '\0')
 		{
-		return (haystack + search);
+			return (haystack + search);
 		}
-	}
-	return (NULL);
 
+		search++;
+	}
+	return ('\0');
 }
