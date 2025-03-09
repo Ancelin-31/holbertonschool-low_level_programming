@@ -4,7 +4,7 @@
  * main - prints the program name
  * followed by a new line
  * @argc: number of arguments
- * @aergv: array of pointers
+ * @argv: array of pointers
  *
  * Return: 0 if true
  */
