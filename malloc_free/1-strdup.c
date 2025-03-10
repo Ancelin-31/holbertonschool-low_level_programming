@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	{
 	}
 
-	if (size == 0 || str == NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
