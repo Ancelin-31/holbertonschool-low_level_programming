@@ -1,10 +1,12 @@
-/**
- * header containing structures and prototypes
- * concerning "dog"
- */
-
 #ifndef DOG_H_
 #define DOG_H_
+
+/**
+ * struct dog - structure representing a dog
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
+ */
 
 struct dog
 {
