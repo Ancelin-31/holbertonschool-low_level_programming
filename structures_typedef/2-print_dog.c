@@ -9,13 +9,17 @@
 
 void print_dog(struct dog *d)
 {
-	printf("Name: %s\n", d->name);
+	if (d->name != NULL)
+		printf("Name: %s\n", d->name);
+	
 	if (d->name == NULL)
-		printf("Name: (nil)");
+		printf("Name: (nil)\n");
 
 	printf("Age: %f\n", d->age);
 
-	printf("Owner: %s\n", d->owner);
+	if (d->owner != NULL)
+		printf("Owner: %s\n", d->owner);
+	
 	if (d->owner == NULL)
-		printf("%snil", d->owner);
+		printf("Owner: (nil)\n");
 }
