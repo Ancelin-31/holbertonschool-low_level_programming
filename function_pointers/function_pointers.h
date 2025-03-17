@@ -1,11 +1,8 @@
 #ifndef FUNCTION_POINTERS_H_
 #define FUNCTION_POINTERS_H_
+#include <stdlib.h>
 
-/**
- * Header containing functions and function pointers
- */
-
-void _putchar(char);
+void _putchar(char c);
 int _strlen(char *s);
 void print_name(char *name, void (*f)(char *));
 
