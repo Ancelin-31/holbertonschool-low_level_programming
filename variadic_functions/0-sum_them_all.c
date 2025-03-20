@@ -4,7 +4,7 @@
 
 /**
  * sum_them_all - sums all numbers given to the function
- * @const unsigned int n: number os arguments passed to the function
+ * @n: number os arguments passed to the function
  *
  * Return: result (or 0 if n = 0)
  */
