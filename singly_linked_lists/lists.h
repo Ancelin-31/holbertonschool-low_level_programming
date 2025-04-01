@@ -7,6 +7,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * struct list_s - singly linked list
+ * @str: string
+ * @len: length of the string
+ * @next: points to next node
+ */
+
 typedef struct list_s
 {
 	char *str;
