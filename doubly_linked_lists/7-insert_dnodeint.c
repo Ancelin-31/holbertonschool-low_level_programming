@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * *insert_dondeint_at_index - inserts a new node in the list at index
+ * *insert_dnodeint_at_index - inserts a new node in the list at index
  * @h: list
  * @idx: index (given position)
  * @n: data
@@ -11,8 +11,7 @@
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int i = 0;
-	dlistint_t *new_node;
-	dlistint_t *current = *h;
+	dlistint_t *new_node, *current = *h;
 
 	new_node = malloc(sizeof(dlistint_t));
 
@@ -31,10 +30,8 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	if (idx == 0)
 		return (add_dnodeint(h, n));
-
 	for (i = 0; current != NULL && i < idx - 1; i++)
 		current = current->next;
-
 	if (current == NULL)
 	{
 		free(new_node);
