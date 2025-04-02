@@ -3,7 +3,7 @@
 /**
  * add_dnodeint - adds a new node at the beginning of a doubly linked list
  * @head: adress of the beginning of the list
- * @str: data in the nodes
+ * @n: data in the nodes
  *
  * Return: adress of the new element, or NULL if it fails
  */
