@@ -3,7 +3,7 @@
 /**
  * append_text_to_file - appends text at the end of a file
  * @filename: name of the file where to append text
- * @text_context: text to append
+ * @text_content: text to append
  * Return: 1 on success, -1 on failure
  */
 
