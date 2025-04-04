@@ -2,8 +2,8 @@
 
 /**
  * read_textfile - reads a text file and prints it to the stdout
+ * @filename: name of the file to open and read
  * @letters: number of letters to read and print
- *
  * Return: number of letters the function could read and print
  */
 
