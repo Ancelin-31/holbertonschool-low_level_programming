@@ -38,7 +38,6 @@ void print_all(const char* const format, ...)
 	unsigned int i = 0;
 	unsigned int j = 0;
 	char *separator = "";
-	char *identifier = "";
 	va_list arguments;
 	function_t functions[] = {
 		{'c', print_char},
@@ -50,7 +49,7 @@ void print_all(const char* const format, ...)
 
 	va_start(arguments, format);
 
-	while (format != NULL && identifier[i] != '\0')
+	while (format != NULL)
 	{
 		j = 0;
 
@@ -60,7 +59,7 @@ void print_all(const char* const format, ...)
 			{
 				printf("%s", separator);
 				separator = ", ";
-				functions[j].fptr(&arguments);
+				functions[j].fptr(arguments);
 				break;
 			}
 
